@@ -1,15 +1,17 @@
-Bibliotecas mais básicas e populares usadas no ecossistema Rust, categorizadas por funcionalidade:
+# Bibliotecas mais básicas e populares usadas no ecossistema Rust, categorizadas por funcionalidade:
 
 ---
 
-### **1. Manipulação de Strings e Texto**
+## **1. Manipulação de Strings e Texto**  
+
 - **`regex`**: Para trabalhar com expressões regulares.
   - [Crate Regex](https://crates.io/crates/regex)
 - **`unicode-segmentation`**: Para manipulação de strings Unicode (ex.: dividir em palavras ou caracteres).
 
 ---
 
-### **2. Estruturas de Dados e Utilitários**
+## **2. Estruturas de Dados e Utilitários**
+
 - **`itertools`**: Extensão para iteradores com funcionalidades adicionais.
   - [Crate Itertools](https://crates.io/crates/itertools)
 - **`hashbrown`**: Implementação otimizada de tabelas hash (`HashMap` e `HashSet`).
@@ -17,7 +19,8 @@ Bibliotecas mais básicas e populares usadas no ecossistema Rust, categorizadas 
 
 ---
 
-### **3. Entrada e Saída (I/O)**
+## **3. Entrada e Saída (I/O)**
+
 - **`serde`**: Para serialização e desserialização de dados (JSON, TOML, YAML, etc.).
   - [Crate Serde](https://crates.io/crates/serde)
 - **`serde_json`**: Extensão do `serde` para lidar especificamente com JSON.
@@ -27,7 +30,8 @@ Bibliotecas mais básicas e populares usadas no ecossistema Rust, categorizadas 
 
 ---
 
-### **4. Manipulação de Arquivos e Sistema de Arquivos**
+## **4. Manipulação de Arquivos e Sistema de Arquivos**
+
 - **`fs_extra`**: Extensões para lidar com o sistema de arquivos.
   - [Crate fs_extra](https://crates.io/crates/fs_extra)
 - **`walkdir`**: Para percorrer diretórios recursivamente.
@@ -35,7 +39,8 @@ Bibliotecas mais básicas e populares usadas no ecossistema Rust, categorizadas 
 
 ---
 
-### **5. Testes e Simulação**
+## **5. Testes e Simulação**
+
 - **`proptest`**: Testes baseados em propriedades (gera entradas aleatórias para validar o código).
   - [Crate Proptest](https://crates.io/crates/proptest)
 - **`mockall`**: Criação de mocks para testes.
@@ -43,7 +48,8 @@ Bibliotecas mais básicas e populares usadas no ecossistema Rust, categorizadas 
 
 ---
 
-### **6. Conexão com Redes**
+## **6. Conexão com Redes**
+
 - **`reqwest`**: Cliente HTTP moderno e fácil de usar.
   - [Crate Reqwest](https://crates.io/crates/reqwest)
 - **`tokio`**: Biblioteca para programação assíncrona.
@@ -51,7 +57,8 @@ Bibliotecas mais básicas e populares usadas no ecossistema Rust, categorizadas 
 
 ---
 
-### **7. Matemática e Algoritmos**
+## **7. Matemática e Algoritmos**
+
 - **`num`**: Tipos e operações numéricas avançadas.
   - [Crate Num](https://crates.io/crates/num)
 - **`nalgebra`**: Biblioteca para álgebra linear e cálculos matemáticos complexos.
@@ -59,7 +66,8 @@ Bibliotecas mais básicas e populares usadas no ecossistema Rust, categorizadas 
 
 ---
 
-### **8. Utilitários de Desenvolvimento**
+## **8. Utilitários de Desenvolvimento**
+
 - **`anyhow`**: Para lidar com erros genéricos de maneira simplificada.
   - [Crate Anyhow](https://crates.io/crates/anyhow)
 - **`thiserror`**: Para criar erros customizados com facilidade.
@@ -69,7 +77,8 @@ Bibliotecas mais básicas e populares usadas no ecossistema Rust, categorizadas 
 
 ---
 
-### **9. Criptografia e Segurança**
+## **9. Criptografia e Segurança**
+
 - **`ring`**: Para criptografia moderna e segura.
   - [Crate Ring](https://crates.io/crates/ring)
 - **`rand`**: Para geração de números aleatórios.
