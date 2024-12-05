@@ -1,15 +1,8 @@
-5 exercícios simples focados em regex para praticar.  
-
-Certifique-se de adicionar a dependência `regex` no arquivo `Cargo.toml` antes de começar:
-
-```toml
-[dependencies]
-regex = "1"
-```
+# Praticando Regex no Rust  
 
 ---
 
-### **01. Validação de Emails**
+## **01. Validação de Emails**
 
 **Objetivo:** Verificar se uma string é um endereço de email válido.
 
@@ -24,7 +17,9 @@ regex = "1"
 ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
 ```
 
-### **02. Capturando Datas no Formato DD/MM/AAAA**
+---
+
+## **02. Capturando Datas no Formato DD/MM/AAAA**
 
 **Objetivo:** Extrair datas de um texto.
 
@@ -41,7 +36,7 @@ regex = "1"
 
 ---
 
-### **03. Remover Caracteres Não Alfanuméricos ou espaços em branco**
+## **03. Remover Caracteres Não Alfanuméricos ou espaços em branco**
 
 **Objetivo:** Limpar uma string, removendo todos os caracteres que não são letras, números ou espaços.
 
@@ -58,7 +53,7 @@ regex = "1"
 
 ---
 
-### **04. Detectar Palavras que Começam com Letra Maiúscula**
+## **04. Detectar Palavras que Começam com Letra Maiúscula**
 
 **Objetivo:** Encontrar todas as palavras que começam com letras maiúsculas em um texto.
 
@@ -75,7 +70,7 @@ regex = "1"
 
 ---
 
-### **05. Substituir Espaços por Underscores**
+## **05. Substituir Espaços por Underscores**
 
 **Objetivo:** Transformar todos os espaços em underscores (`_`) em uma string.
 
