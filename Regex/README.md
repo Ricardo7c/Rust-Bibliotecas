@@ -42,9 +42,9 @@ regex = "1"
 
 ---
 
-### **Exercício 3: Remover Caracteres Não Alfanuméricos**
+### **Exercício 3: Remover Caracteres Não Alfanuméricos ou espaços em branco**
 
-**Objetivo:** Limpar uma string, removendo todos os caracteres que não são letras ou números.
+**Objetivo:** Limpar uma string, removendo todos os caracteres que não são letras, números ou espaços.
 
 **Instruções:**
 
@@ -54,7 +54,7 @@ regex = "1"
 **Regex sugerido:**
 
 ```regex
-[^a-zA-Z0-9]+
+[^a-zA-Z0-9\s]+
 ```
 
 ---
