@@ -24,14 +24,6 @@ regex = "1"
 ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
 ```
 
-**Exemplo de entrada e saída:**
-
-```rust
-assert!(is_valid_email("teste@example.com")); // true
-assert!(!is_valid_email("teste.com"));       // false
-```
-
----
 
 ### **Exercício 2: Capturando Datas no Formato DD/MM/AAAA**
 
