@@ -4,7 +4,7 @@
 
 Regex é uma crate para lidar com expressões regulares, que são padrões em textos, usados para busca, validação e manipulação de strings. Com regex, você pode identificar combinações específicas de caracteres, como e-mails, datas ou número
 
-## **Serde e Serde JSON - [Exercícios](https://crates.io/crates/serde_json)**
+## **Serde e Serde JSON - [Exercícios](https://github.com/Ricardo7c/Rust-Bibliotecas/blob/main/Serde%20e%20Serde%20JSON/README.md)**
 
 Crates para serialização e desserialização de dados em arquivos (JSON, TOML, YAML, etc.)
 
