@@ -24,14 +24,6 @@ regex = "1"
 ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
 ```
 
-**Exemplo de entrada e saída:**
-
-```rust
-assert!(is_valid_email("teste@example.com")); // true
-assert!(!is_valid_email("teste.com"));       // false
-```
-
----
 
 ### **Exercício 2: Capturando Datas no Formato DD/MM/AAAA**
 
@@ -48,19 +40,11 @@ assert!(!is_valid_email("teste.com"));       // false
 \b\d{2}/\d{2}/\d{4}\b
 ```
 
-**Exemplo de entrada e saída:**
-
-```rust
-let text = "Hoje é 04/12/2024, amanhã será 05/12/2024.";
-let dates = extract_dates(text);
-assert_eq!(dates, vec!["04/12/2024", "05/12/2024"]);
-```
-
 ---
 
-### **Exercício 3: Remover Caracteres Não Alfanuméricos**
+### **Exercício 3: Remover Caracteres Não Alfanuméricos ou espaços em branco**
 
-**Objetivo:** Limpar uma string, removendo todos os caracteres que não são letras ou números.
+**Objetivo:** Limpar uma string, removendo todos os caracteres que não são letras, números ou espaços.
 
 **Instruções:**
 
@@ -70,14 +54,7 @@ assert_eq!(dates, vec!["04/12/2024", "05/12/2024"]);
 **Regex sugerido:**
 
 ```regex
-[^a-zA-Z0-9]+
-```
-
-**Exemplo de entrada e saída:**
-
-```rust
-let cleaned = clean_string("Hello, World! 2024...");
-assert_eq!(cleaned, "HelloWorld2024");
+[^a-zA-Z0-9\s]+
 ```
 
 ---
@@ -97,14 +74,6 @@ assert_eq!(cleaned, "HelloWorld2024");
 \b[A-Z][a-z]*\b
 ```
 
-**Exemplo de entrada e saída:**
-
-```rust
-let text = "Alice and Bob went to the Park.";
-let words = find_capitalized_words(text);
-assert_eq!(words, vec!["Alice", "Bob", "Park"]);
-```
-
 ---
 
 ### **Exercício 5: Substituir Espaços por Underscores**
@@ -122,11 +91,3 @@ assert_eq!(words, vec!["Alice", "Bob", "Park"]);
 \s+
 ```
 
-**Exemplo de entrada e saída:**
-
-```rust
-let result = replace_spaces("Hello World! How are you?");
-assert_eq!(result, "Hello_World!_How_are_you?");
-```
-
----
