@@ -40,14 +40,6 @@ regex = "1"
 \b\d{2}/\d{2}/\d{4}\b
 ```
 
-**Exemplo de entrada e saída:**
-
-```rust
-let text = "Hoje é 04/12/2024, amanhã será 05/12/2024.";
-let dates = extract_dates(text);
-assert_eq!(dates, vec!["04/12/2024", "05/12/2024"]);
-```
-
 ---
 
 ### **Exercício 3: Remover Caracteres Não Alfanuméricos**
@@ -63,13 +55,6 @@ assert_eq!(dates, vec!["04/12/2024", "05/12/2024"]);
 
 ```regex
 [^a-zA-Z0-9]+
-```
-
-**Exemplo de entrada e saída:**
-
-```rust
-let cleaned = clean_string("Hello, World! 2024...");
-assert_eq!(cleaned, "HelloWorld2024");
 ```
 
 ---
@@ -89,14 +74,6 @@ assert_eq!(cleaned, "HelloWorld2024");
 \b[A-Z][a-z]*\b
 ```
 
-**Exemplo de entrada e saída:**
-
-```rust
-let text = "Alice and Bob went to the Park.";
-let words = find_capitalized_words(text);
-assert_eq!(words, vec!["Alice", "Bob", "Park"]);
-```
-
 ---
 
 ### **Exercício 5: Substituir Espaços por Underscores**
@@ -114,11 +91,3 @@ assert_eq!(words, vec!["Alice", "Bob", "Park"]);
 \s+
 ```
 
-**Exemplo de entrada e saída:**
-
-```rust
-let result = replace_spaces("Hello World! How are you?");
-assert_eq!(result, "Hello_World!_How_are_you?");
-```
-
----
