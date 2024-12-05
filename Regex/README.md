@@ -1,4 +1,4 @@
-## Aqui estão 5 exercícios simples focados em regex para praticar em Rust, usando a crate `regex`. 
+5 exercícios simples focados em regex para praticar.
 
 Certifique-se de adicionar a dependência `regex` no arquivo `Cargo.toml` antes de começar:
 
