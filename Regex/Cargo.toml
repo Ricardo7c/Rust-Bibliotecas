@@ -18,3 +18,11 @@ path = "ex02.rs"
 name = "ex03"
 path = "ex03.rs"
 
+[[bin]]
+name = "ex04"
+path = "ex04.rs"
+
+[[bin]]
+name = "ex05"
+path = "ex05.rs"
+

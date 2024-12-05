@@ -2,11 +2,8 @@ use regex::Regex;
 
 fn extract_dates(text: &str) -> Vec<String>{
     let padrao = Regex::new(r"\b\d{2}/\d{2}/\d{4}\b").unwrap();
-    let mut resultado : Vec<String>= Vec::new();
-    for data in padrao.find_iter(text){
-        resultado.push(data.as_str().to_string());
-    }
-    resultado
+    padrao.find_iter(text)
+        .map(|x| x.as_str().to_string()).collect()
 }
 
 fn main(){
