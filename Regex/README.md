@@ -1,4 +1,4 @@
-5 exercícios simples focados em regex para praticar.
+5 exercícios simples focados em regex para praticar.  
 
 Certifique-se de adicionar a dependência `regex` no arquivo `Cargo.toml` antes de começar:
 

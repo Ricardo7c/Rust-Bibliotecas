@@ -6,3 +6,15 @@ name = "Strings"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "ex01"
+path = "ex01.rs"
+
+[[bin]]
+name = "ex02"
+path = "ex02.rs"
+
+[[bin]]
+name = "ex03"
+path = "ex03.rs"
+
