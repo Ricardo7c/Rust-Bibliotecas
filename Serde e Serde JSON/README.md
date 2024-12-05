@@ -10,7 +10,7 @@
 
 1. Crie uma estrutura chamada `User` com os campos:
    - `id: u32`
-   - `name: String`
+   - `nome: String`
    - `email: String`
 2. Use `serde` para habilitar a serialização da estrutura.
 3. Converta uma instância de `User` em JSON e imprima o resultado.
@@ -23,7 +23,7 @@
 **Exemplo de saída esperada:**
 
 ```json
-{"id":1,"name":"Alice","email":"alice@example.com"}
+{"id":1,"nome":"Alice","email":"alice@example.com"}
 ```
 
 ---
@@ -38,7 +38,7 @@
 2. Crie uma string JSON no formato:
 
    ```json
-   {"id":2,"name":"Bob","email":"bob@example.com"}
+   {"id":2,"nome":"Bob","email":"bob@example.com"}
    ```
 
 3. Use `serde_json` para convertê-la em uma instância de `User`.
