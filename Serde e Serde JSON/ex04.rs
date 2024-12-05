@@ -1,7 +1,7 @@
-use serde::{Deserialize, Serialize};
+use serde::Serialize;
 use serde_json;
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize)]
 struct Person{
     #[serde(rename = "firstName")]
     first_name: String,
