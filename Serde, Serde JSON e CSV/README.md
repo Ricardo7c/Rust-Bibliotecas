@@ -200,7 +200,6 @@ id,name,age
 **Requisitos**:
 
 - Converta a coluna `age` de string para inteiro.
-- Trate possíveis erros de conversão.
 
 **Exemplo de saída**:
 
