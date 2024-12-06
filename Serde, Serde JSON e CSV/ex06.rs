@@ -30,7 +30,7 @@ fn main(){
     for cada in lista{
         match gravar_csv(&mut arquivo, cada) {
             Ok(valor) => println!("{}", valor),
-            Err(valor) => println!("{}", valor)
+            Err(err) => eprintln!("Erro ao ler registro: {}", err),
         }
     }
 
