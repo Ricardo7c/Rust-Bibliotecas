@@ -136,8 +136,6 @@ User: Alice (alice@example.com)
 User: Bob (bob@example.com)
 ```
 
-Aqui estão 5 exercícios que envolvem manipulação de arquivos CSV usando a crate `csv` no Rust:
-
 ---
 
 ## **06. Escrever um CSV com Dados**
@@ -209,10 +207,6 @@ id,name,age
 ```poweshell
 ["3", "Charlie", "35"]
 ```
-
----
-
-Aqui está o exercício modificado para realizar o processo inverso, ou seja, **ler um arquivo CSV e exportá-lo para JSON**.
 
 ---
 
