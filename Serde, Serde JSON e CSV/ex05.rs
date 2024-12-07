@@ -27,9 +27,11 @@ fn main(){
 
     let vetor = vec![u1, u2, u3];
 
+    // Transforma o vetor de Users em String no formato json
     let serialized = serde_json::to_string(&vetor).unwrap();
     println!("{}", serialized);
 
+    // Transforma a string json de volta para vetor
     let deserialized:Vec<User> = serde_json::from_str(&serialized).unwrap();
 
     for cada in deserialized{

@@ -95,8 +95,8 @@ Email: bob@example.com
    - `last_name: String`
    - `age: u32`
 2. Personalize o nome dos campos no JSON para:
-   - `first_name` → `firstName`
-   - `last_name` → `lastName`
+   - `first_name` → `Nome`
+   - `last_name` → `Sobrenome`
 3. Crie uma instância e serialize para JSON.
 
 **Requisitos:**
@@ -106,7 +106,7 @@ Email: bob@example.com
 **Exemplo de saída esperada:**
 
 ```json
-{"firstName":"John","lastName":"Doe","age":30}
+{"Nome":"John","Sobrenome":"Doe","age":30}
 ```
 
 ---

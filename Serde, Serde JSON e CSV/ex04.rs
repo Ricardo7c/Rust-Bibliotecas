@@ -3,10 +3,10 @@ use serde_json;
 
 #[derive(Serialize)]
 struct Person{
-    #[serde(rename = "firstName")]
+    #[serde(rename = "Nome")]
     first_name: String,
 
-    #[serde(rename = "lastName")]
+    #[serde(rename = "Sobrenome")]
     last_name: String,
     
     age: u32

@@ -14,6 +14,7 @@ fn main(){
         nome: "Widget".to_string(),
         preco:None,
     };
+
     let serializado = serde_json::to_string(&p1).unwrap();
     println!("{}", &serializado);
     
